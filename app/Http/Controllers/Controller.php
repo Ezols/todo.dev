@@ -11,31 +11,7 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
 
-    public function index()
-    {
-        return "Tava mamma";
-    }
 
-    public function allusers()
-    {
-
-       // $flipghts = \App\ECHNorth::all()->take(1);
-       // dd($flipghts);
-
-
-
-
-        return view('allusers');
-    }
-
-    public function roberts()
-    {
-        return "Mammucs";
-    }
-    public function nikita()
-    {
-        return "Pro";
-    }
 }
 
 
