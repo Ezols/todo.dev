@@ -12,10 +12,19 @@ class UsersController extends Controller
         return  $id;
     }
 
+    public function showuser($id)
+    {
+        $data['user'] = User::findorFail($id);
+
+        return view('show', $data);
+    }
+
     public function allusers()
     {
         $data['users'] = User::all();
         return view('users', $data);
     }
+
+
 
 }

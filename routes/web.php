@@ -1,9 +1,10 @@
 <?php
 
-Route::get('allusers', 'UsersController@allusers');
-Route::get('user/{id}', 'UsersController@show');
+Route::get('user', 'UsersController@allusers');
+Route::get('user/{id}', 'UsersController@showuser');
+Route::get('.../{id}', 'UsersController@show');
 
 Route::get('dūms', function ()
 {
-    return 'Sazimē dūmu';
+    return 'Vecīt, nēsi mīkstais, urulē džo.';
 });
