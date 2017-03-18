@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 
 use App\User;
 
-class UsersController extends Controller
+class UsersController
 {
     public function show($id)
     {
