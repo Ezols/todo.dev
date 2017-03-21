@@ -10,10 +10,11 @@ class LoopsController
         $size = request()->get("size");
         $minn = request()->get("minn");
         //$min = request()->get("min");
-        //$max = request()->get("max");
+       // $max = request()->get("max");
         $between = explode(",", request()->get("between"));
         $min = $between[0];
         $max = $between[1];
+
         $array = [];
 
 

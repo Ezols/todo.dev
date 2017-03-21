@@ -11,7 +11,4 @@ Route::get('tasks', 'TasksController@index');
 Route::get('loops', 'LoopsController@random');
 
 
-Route::get('dūms', function ()
-{
-    return 'Vecīt, nēsi mīkstais, urulē džo.';
-});
+Route::get('duums', 'DuumsController@duums');

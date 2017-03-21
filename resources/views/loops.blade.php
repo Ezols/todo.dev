@@ -17,3 +17,11 @@
 <h1>Avarage of nth array</h1>
 
 {{ $average }}
+
+<a href="{{ url('/duums') }}" >
+    <h1 style="
+    color: green;
+    font-size:34px;
+    text-align: center;
+    text-decoration: none;"
+    >Menucis</h1></a>

@@ -3,3 +3,12 @@
     {{-- <a href="{{ action('UsersController@showuser', [$user->id]) }}" ><p>asdasd {{ $user->name }}</p></a> --}}
     <a href="{{ url('/user', $user->id) }}" ><p>{{ $user->name }}</p></a>
 @endforeach
+
+
+<a href="{{ url('/duums') }}" >
+    <h1 style="
+    color: green;
+    font-size:34px;
+    text-align: center;
+    text-decoration: none;"
+    >Menucis</h1></a>
