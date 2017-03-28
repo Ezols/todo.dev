@@ -10,5 +10,7 @@ Route::get('tasks', 'TasksController@index');
 
 Route::get('loops', 'LoopsController@random');
 
+Route::get('kd', 'KDController@KD');
+
 
 Route::get('duums', 'DuumsController@duums');
