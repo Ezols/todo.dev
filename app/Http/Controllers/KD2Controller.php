@@ -23,6 +23,7 @@ class KD2Controller
             $account = rand(-100,100);
             $age = rand(0,100);
 
+
             $array[] =
                 [
                 "name" => $names[$randomName],

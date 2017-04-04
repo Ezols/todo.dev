@@ -12,8 +12,8 @@
     color: red;
 }
 .asd{
-    position: relative;
-    left: 200px;
+    position: absolute;
+    left: 300px;
 
 }
 
@@ -23,8 +23,16 @@
 
 @foreach($users as $user)
 
+
+
+
     <li>
         <b>{{ $user['name'] }}</b>
+        @if($user['age']  < 18)
+
+            Tev nav pilngadiba
+
+        @endif
         <br>{{ $user['age'] }}
         <div class="asd {{ $user['ballance'] > 0 ? "positive" : "negative" }}"> {{ $user['ballance'] }}</div>
     </li>

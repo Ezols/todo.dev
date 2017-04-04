@@ -13,5 +13,7 @@ Route::get('loops', 'LoopsController@random');
 Route::get('kd', 'KDController@KD');
 Route::get('kd2', 'KD2Controller@KD2');
 
+Route::as('user-filter')->get('getusers', 'GetUsersController@GetUsers');
+
 
 Route::get('duums', 'DuumsController@duums');
