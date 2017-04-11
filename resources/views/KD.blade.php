@@ -23,3 +23,11 @@
 </ul>
 
 <h1>Elementi pedeja masiva = {{ $count }}</h1>
+
+<a href="{{ url('') }}" >
+        <h1 style="
+    color: green;
+    font-size:34px;
+    text-align: center;
+    text-decoration: none;"
+        >Menucis</h1></a>

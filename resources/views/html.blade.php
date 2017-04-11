@@ -124,6 +124,7 @@
 <a href="{{ url('/test') }}" ><p>test</p></a>
 <a href="{{ url('/tasks') }}" ><p>tasks</p></a>
 <a href="{{ url('/loops?size=10&minn=22&between=1,2') }}" ><p>loops</p></a>
+<a href="{{ url('getusers') }}" ><p>User filter</p></a>
 
 
 

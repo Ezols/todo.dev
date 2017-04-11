@@ -8,7 +8,7 @@ Created: {{$user->created_at}}
 
 <a href="{{ url('/user') }}" ><p>BACK</p></a>
 
-<a href="{{ url('/duums') }}" >
+<a href="{{ url('') }}" >
     <h1 style="
     color: green;
     font-size:34px;

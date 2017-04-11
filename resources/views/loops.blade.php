@@ -18,7 +18,7 @@
 
 {{ $average }}
 
-<a href="{{ url('/duums') }}" >
+<a href="{{ url('') }}" >
     <h1 style="
     color: green;
     font-size:34px;

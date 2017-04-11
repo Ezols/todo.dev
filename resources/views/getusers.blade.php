@@ -1,14 +1,13 @@
 <ul>
 
     <form action="{{ route('user-filter')  }}">
-        <select name="emails">
 
+        <select name="email">
 
             @foreach($usersselect as $user)
 
 
-                <option selected="selected" value="{{ $user->email }}">{{ $user->email }} </option>
-
+                <option selected="selected" value="{{ $user }}">{{ $user }} </option>
                 
 
             @endforeach
@@ -30,4 +29,14 @@
 
 @endforeach
 
+
 </ul>
+
+
+<a href="{{ url('') }}" >
+    <h1 style="
+    color: green;
+    font-size:34px;
+    text-align: center;
+    text-decoration: none;"
+    >Menucis</h1></a>
