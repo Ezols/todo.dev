@@ -15,5 +15,7 @@ Route::get('kd2', 'KD2Controller@KD2');
 
 Route::as('user-filter')->get('getusers', 'GetUsersController@GetUsers');
 
+Route::get('collor', 'CollorController@Collor');
+
 
 Route::get('', 'DuumsController@duums');
