@@ -27,7 +27,7 @@ class GetUsersController
 
         for($i = 0; $i < count($domain); $i++)
         {
-            if(in_array($domain[$i], $unique    ))
+            if(in_array($domain[$i], $unique))
             {
 
                 dump(5);
