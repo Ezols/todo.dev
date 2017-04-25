@@ -1,16 +1,23 @@
+<style>
+    body {
+        margin:0;
 
+    }
+    td {
+        height: 200px;
+        width:  200px;
+      }
+</style>
 
-asd table {{ $x }}, {{ $y }}
-
-{{ dump($colorGrid[1][2]) }}
 
 <table>
     @foreach($colorGrid as $row)
 
         <tr>
-            @foreach($row as $collumn)
+            @foreach($row as $color)
 
-                <td>1</td>
+                <td style="background: rgb({{ implode(",", $color) }});"></td>
+
 
             @endforeach
         </tr>
